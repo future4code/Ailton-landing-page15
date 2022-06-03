@@ -8,6 +8,58 @@
 /*----------------SECTION1------------------*/
 
 /*----------------SECTION2------------------*/
+.section2 {
+	background-color: #d3d3d3;
+	padding-bottom: 5%;
+}
+.Titulo-section2 {
+	text-align: center;
+	padding-top: 40px;
+	font-size: 35px;
+	color: #3b4f66;
+}
+.container-imagem-section2 {
+	display: flex;
+	justify-content: center;
+	padding-top: 5%;
+	gap: 140px;
+	align-items: center;
+}
+.imagem-section2 {
+	width: 140px;
+	height: 140px;
+}
+.container-texto-imagem-principal {
+	display: flex;
+	justify-content: center;
+	gap: 120px;
+	padding-top: 32px;
+	align-items: center;
+}
+.container-texto-imagem1 {
+	text-align: center;
+}
+.container-texto-imagem2 {
+	text-align: center;
+}
+.container-texto-imagem3 {
+	text-align: center;
+}
+.container-botao-section2 {
+	display: flex;
+	justify-content: center;
+	padding-top: 60px;
+}
+.botao-section2 {
+	padding: 10px;
+	padding-left: 44px;
+	padding-right: 44px;
+	font-size: 20px;
+	/* background-color: #eaecef; */
+	background-color: #3b4f66;
+	/* background-color: #a5e36e; */
+	color: white;
+}
 
 /*----------------SECTION3------------------*/
 
