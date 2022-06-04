@@ -9,7 +9,7 @@
 
 /*----------------SECTION2------------------*/
 .section2 {
-	background-color: #d3d3d3;
+	background-color: rgb(242, 242, 242);
 	padding-bottom: 5%;
 }
 .Titulo-section2 {
@@ -17,6 +17,8 @@
 	padding-top: 40px;
 	font-size: 35px;
 	color: #3b4f66;
+	font-family: 'Gotham A', 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell,
+		'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
 }
 .container-imagem-section2 {
 	display: flex;
@@ -45,6 +47,16 @@
 .container-texto-imagem3 {
 	text-align: center;
 }
+.container-texto-imagem1-h2 {
+	font-family: 'Gotham A', 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell,
+		'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+	color: rgb(106, 106, 106);
+}
+.container-texto-imagem1-P {
+	font-family: 'Gotham A', 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell,
+		'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+	color: rgb(23, 28, 37);
+}
 .container-botao-section2 {
 	display: flex;
 	justify-content: center;
@@ -59,10 +71,71 @@
 	background-color: #3b4f66;
 	/* background-color: #a5e36e; */
 	color: white;
+	border-color: transparent;
+	border-radius: 0.125rem;
+	border-style: solid;
+	border-width: 0.0625rem;
+}
+.botao-section2:hover {
+	background-color: #708090;
 }
 
 /*----------------SECTION3------------------*/
-
+.section3 {
+	background-color: #3b4f66;
+	padding-bottom: 5%;
+	padding: 32px;
+	color: #eaecef;
+}
+.titulo-principal-section3 {
+	font-size: 44px;
+	padding-left: 36px;
+	padding-top: 20px;
+	font-family: 'Gotham A', 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell,
+		'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+}
+.titulo-secundario-section3 {
+	font-size: 36px;
+	padding-left: 36px;
+	padding-top: 10px;
+	font-family: 'Gotham A', 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell,
+		'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+}
+.texto1-section3 {
+	padding-left: 36px;
+	padding-top: 24px;
+	font-family: 'Gotham A', 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell,
+		'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+	font-size: 20px;
+}
+.texto-section3 {
+	padding-left: 36px;
+	padding-top: 24px;
+	font-family: 'Gotham A', 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell,
+		'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+	font-size: 20px;
+}
+.container-botao-section3 {
+	margin-left: 36px;
+	padding-top: 40px;
+}
+.botao-section3 {
+	background-color: #3b4f66;
+	/* border-radius: 0.125rem;
+	border-style: solid; */
+	border-color: rgb(255, 255, 255);
+	color: rgb(255, 255, 255);
+	font-family: 'Gotham A', 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell,
+		'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+	font-size: 0.875rem;
+	padding: 8px;
+	padding-left: 40px;
+	padding-right: 40px;
+	font-size: 20px;
+}
+.botao-section3:hover {
+	background-color: #708090;
+}
 /*----------------SECTION4------------------*/
 
 /*----------------FOOTER--------------------*/
