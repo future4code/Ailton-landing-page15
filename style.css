@@ -487,10 +487,13 @@ a:hover {
 .redes {
 	padding-top: 30px;
 	padding-bottom: 30px;
+	color: white;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 .logo1 {
 	max-width: 100%;
-	width: 80px;
+	width: 90px;
+	
 }
 
 footer{
