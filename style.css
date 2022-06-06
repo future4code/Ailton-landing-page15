@@ -508,6 +508,10 @@ flex-direction: column;
 gap: 16px;
 
 }
+
+.icons > a > img {
+	width: 40px;
+}
 .icons{
 	display: flex;
 	gap: 20px;
