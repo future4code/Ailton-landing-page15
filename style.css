@@ -113,9 +113,10 @@ a:hover {
 	 }
 	 .minha-conta {
 		 display: flex;
+		 padding-top: 1vh;
 		padding-bottom: 10px;
 		margin-left: 10vh;
-		 font-size: 1.5vh;
+		 font-size: 1.2vh;
 		 align-items:center;
 		 justify-items: center;
 	}
@@ -126,7 +127,7 @@ a:hover {
 	.menu li a {
 		display: flex;
 		padding: 0;
-		font-size: 1.3vh;
+		font-size: 1vh;
 	}
 }
 
